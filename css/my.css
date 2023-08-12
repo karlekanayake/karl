@@ -1,0 +1,38 @@
+h1{
+    color: rgb(5, 105, 72);
+    font-style: normal;
+}
+body{
+    background-color: gray;
+}
+p{color: aquamarine;font-size: medium;
+font-style: oblique;
+}
+nav{
+    background-color: #dadae4 ;
+    height: 100px;
+    padding-bottom: 20px;
+ }
+ nav ul {
+    list-style: none; 
+    padding-top: 8px; 
+ }
+ nav li {
+    display: inline;
+ }
+ nav a {
+    text-decoration: none;
+    color: rgb(26, 24, 24);
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: 20px }
+
+table,th,td{
+   border: 5px solid black;
+   width: 500px;
+   color: black;
+   font-weight:bold ;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
