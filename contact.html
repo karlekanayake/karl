@@ -24,11 +24,60 @@
             
 
             </ul>
+        </nav>
 
 
-    </nav>
+
     <p style="border-width: 5px; ">
      adress:     Stud road ,
                  Dandenong       
                   1300244746.
     </p>
+    <form action="login.html">
+        <label for="username">User Name:</label><br>
+        <input type="text" id="username" name="username" placeholder="User name" required><br>
+    
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="email" required><br>
+    
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="password" required><br>
+    
+        <label for="cpassword">Confirm Password</label><br>
+        <input type="password" id="cpassword" name="cpassword" placeholder="confirm password" required><br>
+    
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="First name" required><br>
+        
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Last name" required><br>
+        
+        <label for="gender">Choose gender:</label><br>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="pnta">Prefer Not To Say</option>
+            </select><br>
+        
+        <label for="street">Street:</label><br>
+        <input type="text" id="street" name="street" placeholder="Street" required><br>
+    
+        <label for="snumber">Street Number:</label><br>
+        <input type="number" id="snumber" name="snumber" min=1 placeholder="Street number" required><br>
+    
+        <label for="suburb">Suburb:</label><br>
+        <input type="text" id="suburb" name="suburb" placeholder="Suburb" required><br>
+    
+        <label for="pcode">Post Code:</label><br>
+        <input type="number" id="pcode" name="pcode" min=1 placeholder="Post Code" required><br>
+    
+        <label for="state">State:</label><br>
+        <input type="text" id="state" name="state" placeholder="State" required><br>
+    
+        <label for="phone">Phone number:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="0123 456 789" pattern="[0-9]{10}" required><br>
+        
+        
+        <input type="submit" value="Submit"> <input type="reset">
+    </form>
+<html></html>
